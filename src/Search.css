@@ -1,0 +1,94 @@
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_960_720.jpg");
+    border-radius: 50%;
+    margin: 0px auto;
+    margin-top: 60px;
+    padding: 30px 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
+
+}
+
+.weather-input {
+    margin: 0px auto;
+}
+
+.weather-input input {
+    width: 200px;
+    height: 40px;
+    padding: 5px 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 22px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(104, 131, 154, 0.622);
+}
+
+.weather-input input::placeholder {
+    color: rgba(104, 131, 154, 0.622);
+}
+
+.weather-input input:focus {
+    outline: none;
+    color: rgba(104, 131, 154, 0.622);
+    background-color: rgb(255, 255, 255);
+}
+
+.title {
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.weather-data {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(104, 131, 154, 0.622);
+    padding: 20px;
+    border-radius: 22px;
+}
+
+.weather-data-left {
+    margin-top: 13px;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.search-btn-container {
+    display: flex;
+    width:200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-btn {
+    margin-top: 80px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.search-link {
+    padding: 5px;
+    text-decoration: none;
+    color: rgba(104, 131, 154, 0.622);
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+}
+
+.search-link:hover {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(104, 131, 154, 0.622);
+}
